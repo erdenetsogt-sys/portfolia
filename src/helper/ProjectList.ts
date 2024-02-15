@@ -7,6 +7,7 @@ import fps from "../assets/fps.png";
 import chatapp from "../assets/chatapp.png"
 import calculator from "../assets/calculator.png"
 import typing from "../assets/typing.png"
+import crypto from "../assets/crypto.png"
 
 export type OneProjectType = {
     name: string;
@@ -16,6 +17,13 @@ export type OneProjectType = {
     detail: string;
   };
 export const ProjectList = [
+  {
+    name: "仮想通貨情報",
+    image: crypto,
+    skills: "React, material UI, api",
+    detail: "仮想通貨最新市場データ可視化",
+    url: "https://github.com/erdenetsogt-sys/cryptoInfo",
+  },
   {
     name: "電卓",
     image: calculator,
