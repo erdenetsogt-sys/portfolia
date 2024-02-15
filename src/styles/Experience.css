@@ -1,0 +1,9 @@
+.experience{
+    background-color: whitesmoke;
+  }
+
+.vertical-timeline-element-date {
+  font-size: 20px !important; 
+  font-weight: bold !important;
+  margin-top:5px;
+}
