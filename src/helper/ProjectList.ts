@@ -6,6 +6,7 @@ import chatgpt from "../assets/chatgpt.jpg";
 import fps from "../assets/fps.png";
 import chatapp from "../assets/chatapp.png"
 import calculator from "../assets/calculator.png"
+import typing from "../assets/typing.png"
 
 export type OneProjectType = {
     name: string;
@@ -21,6 +22,13 @@ export const ProjectList = [
     skills: "Python, Tkinter",
     detail: "GUI app",
     url: "https://github.com/erdenetsogt-sys/calculator-tkinter",
+  },
+  {
+    name: "SpeedTyping",
+    image: typing,
+    skills: "React, Bulma css",
+    detail: "タイピングスピード測るアプリ",
+    url: "https://github.com/erdenetsogt-sys/speedTyping",
   },
   {
     name: "チャットアプリ",
