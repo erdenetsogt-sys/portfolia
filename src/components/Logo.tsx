@@ -1,7 +1,8 @@
 import { RiYoutubeLine } from "react-icons/ri";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
+import LeetcodeIcon from "@material-ui/icons/Code";
+import HistoryIcon from "@material-ui/icons/History";
 
 export const Logo = () => {
   const handleGmail = () => {
@@ -25,11 +26,11 @@ export const Logo = () => {
       </div>
       <div className="Logo-button">
         <a
-          href="https://www.youtube.com/channel/UCOos2ogc5eBPGCGL82FiGgA"
+          href="https://www.credly.com/users/erdenetsogt-chuluunbaatar"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <RiYoutubeLine />
+          <HistoryIcon />
         </a>
       </div>
       <div className="Logo-button">
@@ -38,7 +39,7 @@ export const Logo = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <LinkedInIcon />
+          <LeetcodeIcon />
         </a>
       </div>
     </div>

@@ -1,5 +1,5 @@
-import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work";
+import VerifiedIcon from "@material-ui/icons/CheckCircle";
+
 import "../styles/Experience.css";
 import "react-vertical-timeline-component/style.min.css";
 import {
@@ -7,129 +7,134 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
-export const Experience = () => {
+export const Badges = () => {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="rgb(20, 57, 103)">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="２０１６〜"
+          date="２０１２"
           iconStyle={{ background: "rgb(20, 57, 103)", color: "white" }}
-          icon={<SchoolIcon />}
+          icon={<VerifiedIcon />}
         >
           <div className="vertical-timeline-text-section">
-            <h3 className="vertical-timeline-element--title">
-              モンゴル科学技術大学入学
-            </h3>
-            <p>ソフトウエアエンジニア学科</p>
-          </div>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="２０１７（二週間）"
-          iconStyle={{ background: "rgb(20, 57, 103)", color: "white" }}
-          icon={<SchoolIcon />}
-        >
-          <div className="vertical-timeline-text-section">
-            <h3 className="vertical-timeline-element--title">
-              School of International Educaiton of Tianjin Polytechnic
-              University
-            </h3>
-            <p>中国初級</p>
-          </div>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="２０１８〜"
-          iconStyle={{ background: "rgb(20, 57, 103)", color: "white" }}
-          icon={<SchoolIcon />}
-        >
-          <div className="vertical-timeline-text-section">
-            <h3 className="vertical-timeline-element--title">
-              沖縄工業高等専門学校入学
-            </h3>
-            <p>メデイアIT情報工学科</p>
-          </div>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="２０２０（二週間）"
-          iconStyle={{ background: "#e9d35b", color: "white" }}
-          icon={<WorkIcon />}
-        >
-          <div className="vertical-timeline-text-section">
-            <h3 className="vertical-timeline-element--title">
-              ChatBot Mongolia株式会社
-            </h3>
-            <p>インターンシップ</p>
-          </div>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="２０２０（1ヶ月）"
-          iconStyle={{ background: "#e9d35b", color: "white" }}
-          icon={<WorkIcon />}
-        >
-          <div className="vertical-timeline-text-section">
-            <h3 className="vertical-timeline-element--title">
-              King Mongkut University of North Bangkok Thailand
-            </h3>
-            <p>インターンシップ</p>
-          </div>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="〜２０２１"
-          iconStyle={{ background: "rgb(20, 57, 103)", color: "white" }}
-          icon={<SchoolIcon />}
-        >
-          <div className="vertical-timeline-text-section">
-            <h3 className="vertical-timeline-element--title">
-              沖縄工業高等専門学校卒業
-            </h3>
-            <p>メデイアIT情報工学科</p>
+            <h3 className="vertical-timeline-element--title">高校生物理大会</h3>
+            <p>３位</p>
           </div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="〜２０２２"
+          date="２０１８"
+          iconStyle={{ background: "#e9d35b", color: "white" }}
+          icon={<VerifiedIcon />}
+        >
+          <div className="vertical-timeline-text-section">
+            <h3 className="vertical-timeline-element--title">
+              日本語能力試験{" "}
+            </h3>
+            <p>N2級</p>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="２０１９"
+          iconStyle={{ background: "#e9d35b", color: "white" }}
+          icon={<VerifiedIcon />}
+        >
+          <div className="vertical-timeline-text-section">
+            <h3 className="vertical-timeline-element--title">IELTS</h3>
+            <p>6点</p>
+          </div>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="２０１９"
           iconStyle={{ background: "rgb(20, 57, 103)", color: "white" }}
-          icon={<SchoolIcon />}
+          icon={<VerifiedIcon />}
         >
           <div className="vertical-timeline-text-section">
             <h3 className="vertical-timeline-element--title">
-              モンゴル科学技術大学卒業
+              第13回日本語弁論大会名護市{" "}
             </h3>
-            <p>ソフトウエアエンジニア学科</p>
+            <p>特別賞</p>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="２０２０"
+          iconStyle={{ background: "#e9d35b", color: "white" }}
+          icon={<VerifiedIcon />}
+        >
+          <div className="vertical-timeline-text-section">
+            <h3 className="vertical-timeline-element--title">TOEIC</h3>
+            <p>895</p>
           </div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="２０２１〜２０２３"
-          iconStyle={{ background: "#e9d35b", color: "white" }}
-          icon={<WorkIcon />}
+          className="vertical-timeline-element--education"
+          date="２０２１"
+          iconStyle={{ background: "rgb(20, 57, 103)", color: "white" }}
+          icon={<VerifiedIcon />}
         >
           <div className="vertical-timeline-text-section">
             <h3 className="vertical-timeline-element--title">
-              システムエンジニア・プログラマー
+              Google IT Support Certificate
             </h3>
-            <p>モビネット株式会社</p>
+            <p>合格</p>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="２０２１"
+          iconStyle={{ background: "rgb(20, 57, 103)", color: "white" }}
+          icon={<VerifiedIcon />}
+        >
+          <div className="vertical-timeline-text-section">
+            <h3 className="vertical-timeline-element--title">
+              AZ-900: Microsoft Azure Fundamentals
+            </h3>
+            <p>合格</p>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="２０２１"
+          iconStyle={{ background: "rgb(20, 57, 103)", color: "white" }}
+          icon={<VerifiedIcon />}
+        >
+          <div className="vertical-timeline-text-section">
+            <h3 className="vertical-timeline-element--title">
+              Google IT Automation with Python Professional Certificate
+            </h3>
+            <p>合格</p>
           </div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="２０２３~現在"
-          iconStyle={{ background: "#e9d35b", color: "white" }}
-          icon={<WorkIcon />}
+          className="vertical-timeline-element--education"
+          date="２０２２"
+          iconStyle={{ background: "rgb(20, 57, 103)", color: "white" }}
+          icon={<VerifiedIcon />}
         >
           <div className="vertical-timeline-text-section">
-            <h3 className="vertical-timeline-element--title">派遣エンジニア</h3>
-            <p>ビーネックストテクノロジーズ</p>
+            <h3 className="vertical-timeline-element--title">
+              AZ-104: Microsoft Azure Administrator
+            </h3>
+            <p>合格</p>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="２０２３"
+          iconStyle={{ background: "#e9d35b", color: "white" }}
+          icon={<VerifiedIcon />}
+        >
+          <div className="vertical-timeline-text-section">
+            <h3 className="vertical-timeline-element--title">日本語能力試験</h3>
+            <p>N1級</p>
           </div>
         </VerticalTimelineElement>
       </VerticalTimeline>

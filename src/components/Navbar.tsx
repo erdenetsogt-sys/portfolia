@@ -14,6 +14,9 @@ export const Navbar = () => {
         <Link to="/projects" className="nav-link">
           プロジェクト
         </Link>
+        <Link to="/badges" className="nav-link">
+          資格
+        </Link>
       </div>
     </div>
   );

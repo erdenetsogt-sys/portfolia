@@ -6,6 +6,7 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import "./App.css";
 import { ProjectDisplay } from "./pages/ProjectDisplay";
+import { Badges } from "./pages/Badges";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
+          <Route path="/badges" element={<Badges />} />
         </Routes>
         <Footer />
       </Router>

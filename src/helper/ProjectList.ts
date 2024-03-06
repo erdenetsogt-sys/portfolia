@@ -40,12 +40,13 @@ export const ProjectList = [
     url: "https://github.com/erdenetsogt-sys/cryptoInfo",
   },
   {
-    name: "電卓",
-    image: calculator,
-    skills: "Python, Tkinter",
-    detail: "GUI app",
-    url: "https://github.com/erdenetsogt-sys/calculator-tkinter",
+    name: "天気予報",
+    image: weather,
+    skills: "React",
+    detail: "typing recommender,weather api",
+    url: "https://github.com/erdenetsogt-sys/weatherapp",
   },
+  
   {
     name: "SpeedTyping",
     image: typing,
@@ -60,13 +61,7 @@ export const ProjectList = [
     detail: "realtime messenger",
     url: "https://github.com/erdenetsogt-sys/chatapp",
   },
-  {
-    name: "天気予報",
-    image: weather,
-    skills: "React",
-    detail: "typing recommender,weather api",
-    url: "https://github.com/erdenetsogt-sys/weatherapp",
-  },
+  
 
   {
     name: "ゆで卵の時間はかり",
@@ -88,5 +83,12 @@ export const ProjectList = [
     skills: "IOS app",
     detail: "質問に答えるアプリ",
     url: "https://github.com/erdenetsogt-sys/Quizzler-iOS13",
+  },
+  {
+    name: "電卓",
+    image: calculator,
+    skills: "Python, Tkinter",
+    detail: "GUI app",
+    url: "https://github.com/erdenetsogt-sys/calculator-tkinter",
   },
 ];
