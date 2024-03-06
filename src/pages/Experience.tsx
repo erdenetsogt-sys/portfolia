@@ -69,7 +69,7 @@ export const Experience = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="２０２１〜２０２２"
+          date="２０２１〜２０２３"
           iconStyle={{ background: "#e9d35b", color: "white" }}
           icon={<WorkIcon />}
         >
@@ -80,7 +80,7 @@ export const Experience = () => {
             <p>モビネット株式会社</p>
           </div>
         </VerticalTimelineElement>
-
+        {/* 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="２０２２〜２０２３"
@@ -91,7 +91,7 @@ export const Experience = () => {
             <h3 className="vertical-timeline-element--title">RPAエンジニア</h3>
             <p>GOLOMT銀行</p>
           </div>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -100,9 +100,7 @@ export const Experience = () => {
           icon={<WorkIcon />}
         >
           <div className="vertical-timeline-text-section">
-            <h3 className="vertical-timeline-element--title">
-              組み込みエンジニア
-            </h3>
+            <h3 className="vertical-timeline-element--title">派遣エンジニア</h3>
             <p>ビーネックストテクノロジーズ</p>
           </div>
         </VerticalTimelineElement>

@@ -6,10 +6,10 @@ export const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <h2>エーギです。ソフトウエアエンジニア。</h2>
+        <h2>ソフトウエアエンジニアのエーギ</h2>
 
         <div className="prompt">
-          <p>Chuluunbaatar Erdenetsogt</p>
+          <p>チョローンバートル　エルデネツォグト</p>
           <Logo />
         </div>
       </div>

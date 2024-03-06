@@ -1,13 +1,14 @@
-import story from "../assets/story.jpg";
+
 import egg from "../assets/egg.png";
 import quiz from "../assets/quiz.png";
 import music from "../assets/music.png";
-import chatgpt from "../assets/chatgpt.jpg";
-import fps from "../assets/fps.png";
 import chatapp from "../assets/chatapp.png"
 import calculator from "../assets/calculator.png"
 import typing from "../assets/typing.png"
 import crypto from "../assets/crypto.png"
+import ecommerce from "../assets/ecommerce.png"
+import netflix from "../assets/netflix.png"
+import weather from "../assets/weatherapp.png"
 
 export type OneProjectType = {
     name: string;
@@ -17,6 +18,20 @@ export type OneProjectType = {
     detail: string;
   };
 export const ProjectList = [
+  {
+    name: "Netflixクローン",
+    image: netflix,
+    skills: "React, Stipe, Firebase",
+    detail: "subscription product, mobile responsive ",
+    url: "https://github.com/erdenetsogt-sys/netflix-clone",
+  },
+  {
+    name: "Ecommerce",
+    image: ecommerce,
+    skills: "React, Nodejs, Mongodb",
+    detail: "Ecommerce , mobile responsive",
+    url: "https://github.com/erdenetsogt-sys/ecommerce/tree/main",
+  },
   {
     name: "仮想通貨情報",
     image: crypto,
@@ -46,33 +61,13 @@ export const ProjectList = [
     url: "https://github.com/erdenetsogt-sys/chatapp",
   },
   {
-    name: "FPS Aim トレーニング",
-    image: fps,
-    skills: "Three js",
-    detail: "someapp",
-    url: "https://www.google.com",
+    name: "天気予報",
+    image: weather,
+    skills: "React",
+    detail: "typing recommender,weather api",
+    url: "https://github.com/erdenetsogt-sys/weatherapp",
   },
-  {
-    name: "Story Telling",
-    image: story,
-    skills: "React,HTML,css",
-    detail: "someapp",
-    url: "https://www.google.com",
-  },
-  {
-    name: "Chatgpt クローン",
-    image: chatgpt,
-    skills: "API",
-    detail: "someapp",
-    url: "https://www.google.com",
-  },
-  {
-    name: "Facebook クローン",
-    image: story,
-    skills: "CRUD",
-    detail: "someapp",
-    url: "https://www.google.com",
-  },
+
   {
     name: "ゆで卵の時間はかり",
     image: egg,
