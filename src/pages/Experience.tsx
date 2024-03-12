@@ -115,7 +115,7 @@ export const Experience = () => {
         >
           <div className="vertical-timeline-text-section">
             <h3 className="vertical-timeline-element--title">
-              システムエンジニア・プログラマー
+              ソフトウエアエンジニア
             </h3>
             <p>モビネット株式会社</p>
           </div>
@@ -128,7 +128,9 @@ export const Experience = () => {
           icon={<WorkIcon />}
         >
           <div className="vertical-timeline-text-section">
-            <h3 className="vertical-timeline-element--title">派遣エンジニア</h3>
+            <h3 className="vertical-timeline-element--title">
+              ソフトウエアエンジニア
+            </h3>
             <p>ビーネックストテクノロジーズ</p>
           </div>
         </VerticalTimelineElement>
