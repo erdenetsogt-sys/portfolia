@@ -18,6 +18,7 @@
   height: calc(100vh-100px);
   padding-bottom: 10%;
   padding-top: 10%;
+ 
   }
 
 .about h2{
@@ -57,5 +58,17 @@
     width: 60%;
 }
 
-.skills .item{
+
+@media (max-width: 800px) {
+    .about h2 {
+        font-size: 30px;
+    }
+    .about p {
+        font-size: 20px;
+    }
+    .skills .list{
+        list-style: none;
+        width: 100%;
+        max-width: 80%;
+    }
 }
